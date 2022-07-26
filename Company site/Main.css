@@ -39,6 +39,7 @@
     grid-template: repeat(4,0.3fr) / repeat(4, 0.3fr);  
 
 }
+
 @media only screen and (max-width: 1000px) {
     #what{
         height: 160vh;
@@ -173,7 +174,7 @@
     font-weight: bold;
 }
 #OUR{
-    background-color: aliceblue;
+    
     height: 60vh;
 }
 #get{
@@ -194,19 +195,8 @@
         height: 100vh;
     }
    }
-
-   #whoid{
-    border-radius: 20px;
-    box-shadow: -5px 0px 0px 0px red;
-    margin-left: 23vw;
-    height: 20vh;
-   }
-   #whoid1{
-    border-radius: 20px;
-    box-shadow: -5px 0px 0px 0px red;
-    
-    height: 20vh;
-   }
+   
+   
 
 
 
@@ -239,10 +229,7 @@
 #OUR{
     height: 100vh;
 }
-#jvj{
-    position: relative;
-    left: 20vw;
-}
+
 
 #powerid{
     height: 40vh;
@@ -359,7 +346,7 @@ margin-left: 3vw;
     box-shadow: 0px 4px 3px 1px #646464;
     border-radius: 5px;
     color: aliceblue;
-    
+   font-weight: bold;
     width: 10vw;
 }
 
@@ -411,39 +398,6 @@ margin-left: 3vw;
     background-color: #740000;
  
 }
-@media only screen and (max-width: 1000px) {
-    #storypart{
-   
-        position: relative;
-       
-        right: -20vw;
-    }
-   
-   
-   
-    #storypart1{
-   
-        position: relative;
-        top: 20vh;
-        right: -5vw;
-    }
-    #storypart2{
-   
-        position: relative;
-        top: 40vh;
-        right: 10vw;
-    }
-    #storypart3{
-   
-        position: relative;
-        top: 60vh;
-        right: 24vw;
-    }
-    #story{
-height: 100vh;
-    }
-
-}
 
 
 #storypart{
@@ -481,12 +435,17 @@ height: 100vh;
     color: white;
     font-weight: bold;
     height: 5vh;
-    width: 10vw;
+    width: auto;
     border-radius: 4px;
 }
 #ssss{
     position: relative;
     left: 30vw;
+}
+#jj{
+    font-size: 30px;
+    font-weight: bold;
+    color: #9e0000;
 }
 
 
@@ -524,12 +483,12 @@ height: 100vh;
     
 }
 #engagebutton{
-    height: 10vh;
-    width: 30vw;
+    height: auto;
+    width: auto;
     font-size: 40px;
     background-color: #9e0000;
     color: white;
-    border-radius: 10px;
+    
     font-weight: bold;
 }
 
@@ -582,6 +541,24 @@ color: #b60000;
     border-radius: 20px;
 }
 
+#hrs{
+    
+        position: relative;
+        left: 430px;
+        background-color: #5f5f5f;
+        height: 0.5vh;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    #hrs1{
+        position: relative;
+        left: 890px;
+        background-color: #5f5f5f;
+        height: 0.5vh;
+        border-radius: 20px; 
+    }
+
+
 
 #reactbutton{
     height: 10vh;
@@ -602,7 +579,15 @@ color: #b60000;
 }
 
 
-
+#whoid{
+    box-shadow: -5px 0px 0px 0px red;
+    border-radius: 10px;
+    margin-left: 22vw;
+}
+#whoid1{
+    box-shadow: -5px 0px 0px 0px red;
+    border-radius: 10px;
+}
 
 #plm{
     margin: 40px 300px;
@@ -684,3 +669,151 @@ color: #b60000;
     font-weight: bolder;
     color: #5f5f5f;
 }
+
+
+#finimage{
+    margin: 10px 10px;
+background-size: contain;
+
+}
+#finim1{
+    background-size: contain;
+  height: 100%;
+
+}
+#finim{
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1500px) {
+
+#whoid{
+    box-shadow: -5px 0px 0px 0px red;
+    border-radius: 10px;
+    margin-left: 14vw;
+}
+
+#whoid1{
+    box-shadow: -5px 0px 0px 0px red;
+    border-radius: 10px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 1290px) {
+   #btn{
+    font-size: 13px;
+    width: auto;
+    
+   }
+   .navbar-brand{
+    font-size: 15px;
+   }
+.card{
+    width: 250px;
+}
+#whoid{
+width: 400px;
+margin-left: 8vw;
+}
+#imageid{
+    width: auto;
+    height: auto;
+}
+
+
+}
+
+@media only screen and (max-width: 1100px) {
+ #jvj{
+    width: 5vw;
+    height: 55vh;
+ }
+ 
+}
+@media only screen and (max-width: 1000px) {
+    #jvj{
+       width: 10vw;
+       height: 55vh;
+       margin-left: 40vw;
+    }
+    #OUR{
+        height: 100vh;
+    }
+    #PV{
+        height: 100vh;
+    }
+   #kl{
+    width: auto;
+   }
+
+   #whoidimage{
+ position: relative;
+    top: -13vh;
+}
+#whoid{
+    position: relative;
+    top: 35vh;
+}
+#whocol{
+    height: 50vh;
+}
+   
+   }
+
+
+   @media only screen and (max-width: 600px) {
+.card{
+    width: 60vw;
+    margin-left: 12vw;
+}
+
+
+
+
+    
+}
+
+
+@media only screen and (max-width: 1500px) {
+    #btn{
+     font-size: 13px;
+     width: auto;
+     
+    }
+ 
+ }
+
+ @media only screen and (max-width: 700px) {
+    
+    #engagebutton{
+        height: auto;
+        width: 30vw;
+        font-size: 40px;
+        background-color: #9e0000;
+        color: white;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    #reactbutton{
+        height: auto;
+        width: 30vw;
+        font-size: 40px;
+        background-color: #9e0000;
+        color: white;
+     
+        font-weight: bold;  
+    }
+    #engagebutton{
+        width: auto;
+    }
+ }
