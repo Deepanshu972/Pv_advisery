@@ -133,13 +133,17 @@ body {
 #secondnav{
    
   height: 80vh;
-  background-image: url("images/starter.JPG");
-  height: auto;
-  width: auto;
+  background-image: url('starter.JPG');
+  background-repeat:space;
+  background-size: 100% 100%;
+
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 980px) {
   #secondnav{
-   height: 88vh;
+   height: 100vh;
+   background-image: url('Mobile-banner-1-188x300.jpg');
+  background-repeat:space;
+  background-size: 100% 100%;
   }
  }
 
@@ -151,8 +155,12 @@ body {
 
 #as{
   color: #a70404;
-  font-size: 40px;
+  font-size: 220%;
   font-weight: bold;
+}
+
+#pfont{
+  font-size:100%;
 }
 
 #nm{
@@ -173,8 +181,8 @@ body {
 }
 
 #btn{
-  height: 5vh;
-  width: 13vw;
+  height: 100%;
+  width: 100%;
   color: aliceblue;
     background-color: #740000;    
   box-shadow: 0px 4px 3px 1px #646464;
