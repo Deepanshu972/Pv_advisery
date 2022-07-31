@@ -22,3 +22,24 @@
   margin: auto;
   background-color: #cc0303;
 }
+
+.ancor:link{
+  color: white;
+  text-decoration: none;
+}
+
+.ancor:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.ancor:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.ancor:active{
+  color: white;
+  text-decoration: none;
+}
+
