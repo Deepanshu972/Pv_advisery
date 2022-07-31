@@ -198,7 +198,7 @@ section .title{
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   padding-bottom: 1%;
   font-family: 'Ubuntu', sans-serif;
   color:  #9e0000;
@@ -218,45 +218,36 @@ section .title::before{
   background: #111;
   transform: translateX(-50%);
 }
-section .title::after{
-  position: absolute;
-  bottom: -8px;
-  left: 50%;
-  font-size: 20px;
-  color:  rgb(208, 7, 7);
-  padding: 0 5px;
-  background: #fff;
-  transform: translateX(-50%);
-} 
-
 .carousel .card{
   background: #fff;
   border-radius: 16px;
-  padding: 0.25% 0.35%;
+  padding: 1.5% 0.8% 3.5% 0.8%;
   text-align: center;
   overflow: hidden;
   transition: all 0.3s ease;
 }
+.cardscenter{
+  position:relative;
+  align-items: center;
+  margin-left: 8%;
+}
 .card{
-  margin-left: 0%;
+  margin-left: 2%;
 }
-.carousel .card:hover{
-  background:   #9e0000;
-}
-.teams .carousel .card .box{
-  display: flex;
+
+.carousel .card .box{
+  display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.carousel .card:hover .box{
   transform: scale(1.05);
 }
-.teams .carousel .card .text{
-  font-size: 25px;
-  font-weight: 500;
-  margin: 10px 0 7px 0;
+.carousel .card .text{
+  font-size: 200%;
+  font-weight: bold;
 }
 .carousel .card img{
   height: 100%;
@@ -270,13 +261,25 @@ section .title::after{
 
 .owl-carousel {
   display:flex;
-  width: 100%;
+  width: 90%;
   margin-left: 0.1%;
+  margin-right: 0.1%;
   -webkit-tap-highlight-color: transparent;
      position: relative;
   z-index: 1; }
+
+  @media only screen and (max-width: 1000px){
+  .owl-carousel {
+    display:block;
+    width: 90%;
+    margin-left: 0.1%;
+    margin-right: 0.1%;
+    -webkit-tap-highlight-color: transparent;
+       position: relative;
+    z-index: 1; }
+  }
   .owl-carousel .owl-stage {
-    position: relative;
+    position:absolute;
     -ms-touch-action: pan-Y;
     touch-action: manipulation;
      -moz-backface-visibility: hidden;
