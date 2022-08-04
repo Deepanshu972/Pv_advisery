@@ -174,6 +174,17 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+#nm1{
+  color:#5f5f5f;
+  font-weight: bold;
+  font-size: 200%;
+}
+#as1{
+  color: #a70404;
+  font-size: 200%;
+  font-weight: bold;
+}
+
 #c{
   font-size: 17px;
   font-weight: bold;
@@ -188,7 +199,15 @@ body {
   box-shadow: 0px 4px 3px 1px #646464;
   border-radius: 5px;
 }
-
+#btn1{
+  height: 50%;
+  width: 150%;
+  margin:15%;
+  color: aliceblue;
+    background-color: #740000;    
+  box-shadow: 0px 4px 3px 1px #646464;
+  border-radius: 5px;
+}
 section{
   padding: 100px 0;
 }
@@ -416,3 +435,312 @@ section .title::before{
   z-index: 1;
   height: 100%;
   width: 100%; }
+  #whoid{
+    box-shadow: -5px 0px 0px 0px #740000;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    
+}
+#whoidimage{
+  position: relative;
+     height: auto;
+     width: auto;
+     margin: auto;
+ }
+ #whoid1{
+  box-shadow: -5px 0px 0px 0px #740000;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+   #whoid{
+    box-shadow: -5px 0px 0px 0px #740000;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    
+}
+}
+@media only screen and (max-width: 1400px) {
+
+ 
+   #whoid{
+    box-shadow: -5px 0px 0px 0px #740000;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    
+}
+}
+@media only screen and (max-width: 1500px) {
+
+ 
+  #whoid{
+   box-shadow: -5px 0px 0px 0px #740000;
+   border-radius: 10px;
+   margin-left: 27.5%;
+   margin-bottom: 10%;
+   
+}
+}
+@media only screen and (max-width: 1300px) {
+
+ 
+  #whoid{
+   box-shadow: -5px 0px 0px 0px #740000;
+   border-radius: 10px;
+   margin-left: 22.5%;
+   margin-bottom: 10%;
+   
+}
+}
+@media only screen and (max-width: 1250px) {
+
+ 
+  #whoid{
+   box-shadow: -5px 0px 0px 0px #740000;
+   border-radius: 10px;
+   margin-left: 20%;
+   margin-bottom: 10%;
+
+   
+   
+}
+#whoidimage{
+margin-left: 30%;
+height: 40vh;
+width: 60vh;
+}
+#whoidimage1{
+  height: 40vh;
+  width: 75vh;
+  }
+  }
+
+
+@media only screen and (max-width: 1200px) {
+
+ 
+  #whoid{
+    position: relative;
+   box-shadow: -5px 0px 0px 0px #740000;
+   border-radius: 10px;
+   margin-left: 17.5%;
+   margin-bottom: 10%;
+   
+}
+
+  #whoidimage{
+    margin-left: 30%;
+    height: 40vh;
+    width: 60vh;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+
+ 
+  #whoid{
+   box-shadow: -5px 0px 0px 0px #740000;
+   border-radius: 10px;
+   margin-left: 20%;
+   margin-bottom: 10%;
+
+   
+   
+}
+#whoidimage{
+  /* margin-top: 20%; */
+margin-left: 38%;
+height: 35vh;
+width: 50vh;
+}
+#whoidimage1{
+  height: 40vh;
+  width: 65vh;
+  }
+  }
+
+  @media only screen and (max-width: 1050px) {
+
+ 
+    #whoid{
+     box-shadow: -5px 0px 0px 0px #740000;
+     border-radius: 10px;
+     margin-left: 20%;
+     margin-bottom: 10%;
+  
+     
+     
+  }
+  #whoidimage{
+    /* margin-top: 20%; */
+  margin-left: 35%;
+  height: 35vh;
+  width: 48vh;
+  }
+  #whoidimage1{
+    height: 40vh;
+    width: 65vh;
+    }
+    }
+
+    @media only screen and (max-width: 992px) {
+
+ 
+      #whoid{
+       box-shadow: -5px 0px 0px 0px #740000;
+       border-radius: 10px;
+       margin-left: 20%;
+       margin-bottom: 10%;
+    
+       
+       
+    }
+    #whoidimage{
+    margin-left: 26%;
+    height: 40vh;
+    width: 55vh;
+    }
+    #whoidimage1{
+      margin-top: 10%;
+      margin-left: 20.5%;
+      height: 40vh;
+      width: 71vh;
+      }
+      #whoid1{
+        box-shadow: -5px 0px 0px 0px #740000;
+        border-radius: 10px;
+        margin-top: 5%;
+        margin-left: 20%;
+       margin-bottom: 10%;
+      }
+      }
+      @media only screen and (max-width: 650px) {
+
+ 
+        #whoid{
+         box-shadow: -5px 0px 0px 0px #740000;
+         border-radius: 10px;
+         margin-left: 10%;
+         margin-bottom: 10%;
+      
+         
+         
+      }
+      #whoidimage{
+      margin-left: 18%;
+      height: 40vh;
+      width: 55vh;
+      }
+      #whoidimage1{
+        margin-top: 10%;
+        margin-left: 10.5%;
+        height: 40vh;
+        width: 71vh;
+        }
+        #whoid1{
+          box-shadow: -5px 0px 0px 0px #740000;
+          border-radius: 10px;
+          margin-top: 5%;
+          margin-left: 10%;
+         margin-bottom: 10%;
+        }
+        }
+        @media only screen and (max-width: 576px) {
+
+ 
+          #whoid{
+           box-shadow: -5px 0px 0px 0px #740000;
+           border-radius: 10px;
+           margin-left: 10%;
+           margin-bottom: 10%;
+        
+           
+           
+        }
+        #whoidimage{
+         
+        margin-left: 10%;
+        height: 30%;
+            width: 35%;
+        }
+        #whoidimage1{
+          margin-top: 10%;
+          margin-left: 10.5%;
+          height: 40%;
+          width: 80%;
+          }
+          #whoid1{
+            box-shadow: -5px 0px 0px 0px #740000;
+            border-radius: 10px;
+            margin-top: 5%;
+            margin-left: 10%;
+           margin-bottom: 10%;
+          }
+          }
+          @media only screen and (max-width: 575px) {
+            #whoidimage{
+              
+            margin-left: 20%;
+            height: 25%;
+            width: 30%;
+            }
+          }
+          #reach{
+            background-image: url('R.jpg');
+            background-size: 1700px;
+            height:30vh;
+            background-color: #7f7f7f;
+            margin: 100px 0px;
+        
+        }
+        /* #reachq{
+            background-color: #464545;
+            opacity: .8;
+            height: 30vh;
+        } */
+        #k{
+          font-size: 50px;
+          font-weight: bold;
+          color: white;
+      }
+      #l{
+          color: white;
+          font-size: 20px;
+      }
+      #cd{
+        color:#740000;
+        width: 4vw;
+        box-shadow: 0px 0px 0px 2px #740000;
+    margin-left: 3vw;
+    }
+  
+   #cd1{
+    border: 5px solid white;
+    color: white;
+    border-top:white;
+    width: 4%;
+  margin: auto;
+   }
+
+    #sotry{
+      background-color: #9d0202;
+  }
+  
+  #our{
+    background-color: #9d0202;
+    color: white;
+ 
+}
+#storypart{
+   
+  color: white;
+}#counter{
+  font-weight: bold;
+  font-size: 30px;
+}
