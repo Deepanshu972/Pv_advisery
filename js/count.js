@@ -10,7 +10,7 @@ let CounterObserver = new IntersectionObserver(
     let [entry]= entries;
     if(!entry.isIntersecting)return;
 
-    const speed = 900;
+    const speed = 700;
 
 counters.forEach((counter,index) => { 
 const updateCount =() => {
