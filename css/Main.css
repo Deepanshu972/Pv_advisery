@@ -744,7 +744,7 @@ width: 50vh;
   font-weight: bold;
   font-size: 30px;
 }
-
+/* 
 .owl-carousel1 {
   display:flex;
   width: 90%;
@@ -902,3 +902,263 @@ width: 50vh;
   z-index: 1;
   height: 100%;
   width: 100%; }
+.imgh{
+  height: 0%;
+  width: 0%;
+  padding:50%;
+} */
+#whoida{
+
+  margin-left: 30%;
+  margin-bottom: 10%;
+  
+}
+#whoidimagea{
+position: relative;
+   height: auto;
+   width: auto;
+   margin: auto;
+}
+#whoidb{
+
+border-radius: 10px;
+margin-top: 5%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+ #whoida{
+  box-shadow: -5px 0px 0px 0px #740000;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  
+}
+}
+@media only screen and (max-width: 1400px) {
+
+
+ #whoid{
+  box-shadow: -5px 0px 0px 0px #740000;
+  border-radius: 10px;
+  margin-left: 25%;
+  margin-bottom: 10%;
+  
+}
+}
+@media only screen and (max-width: 1500px) {
+
+
+#whoid{
+ box-shadow: -5px 0px 0px 0px #740000;
+ border-radius: 10px;
+ margin-left: 27.5%;
+ margin-bottom: 10%;
+ 
+}
+}
+@media only screen and (max-width: 1300px) {
+
+
+#whoid{
+ box-shadow: -5px 0px 0px 0px #740000;
+ border-radius: 10px;
+ margin-left: 22.5%;
+ margin-bottom: 10%;
+ 
+}
+}
+@media only screen and (max-width: 1250px) {
+
+
+#whoid{
+ box-shadow: -5px 0px 0px 0px #740000;
+ border-radius: 10px;
+ margin-left: 20%;
+ margin-bottom: 10%;
+
+ 
+ 
+}
+#whoidimage{
+margin-left: 30%;
+height: 40vh;
+width: 60vh;
+}
+#whoidimage1{
+height: 40vh;
+width: 75vh;
+}
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+
+#whoid{
+  position: relative;
+ box-shadow: -5px 0px 0px 0px #740000;
+ border-radius: 10px;
+ margin-left: 17.5%;
+ margin-bottom: 10%;
+ 
+}
+
+#whoidimage{
+  margin-left: 30%;
+  height: 40vh;
+  width: 60vh;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+
+
+#whoid{
+ box-shadow: -5px 0px 0px 0px #740000;
+ border-radius: 10px;
+ margin-left: 20%;
+ margin-bottom: 10%;
+
+ 
+ 
+}
+#whoidimage{
+/* margin-top: 20%; */
+margin-left: 38%;
+height: 35vh;
+width: 50vh;
+}
+#whoidimage1{
+height: 40vh;
+width: 65vh;
+}
+}
+
+@media only screen and (max-width: 1050px) {
+
+
+  #whoid{
+   box-shadow: -5px 0px 0px 0px #740000;
+   border-radius: 10px;
+   margin-left: 20%;
+   margin-bottom: 10%;
+
+   
+   
+}
+#whoidimage{
+  /* margin-top: 20%; */
+margin-left: 35%;
+height: 35vh;
+width: 48vh;
+}
+#whoidimage1{
+  height: 40vh;
+  width: 65vh;
+  }
+  }
+
+  @media only screen and (max-width: 992px) {
+
+
+    #whoid{
+     box-shadow: -5px 0px 0px 0px #740000;
+     border-radius: 10px;
+     margin-left: 20%;
+     margin-bottom: 10%;
+  
+     
+     
+  }
+  #whoidimage{
+  margin-left: 26%;
+  height: 40vh;
+  width: 55vh;
+  }
+  #whoidimage1{
+    margin-top: 10%;
+    margin-left: 20.5%;
+    height: 40vh;
+    width: 71vh;
+    }
+    #whoid1{
+      box-shadow: -5px 0px 0px 0px #740000;
+      border-radius: 10px;
+      margin-top: 5%;
+      margin-left: 20%;
+     margin-bottom: 10%;
+    }
+    }
+    @media only screen and (max-width: 650px) {
+
+
+      #whoid{
+       box-shadow: -5px 0px 0px 0px #740000;
+       border-radius: 10px;
+       margin-left: 10%;
+       margin-bottom: 10%;
+    
+       
+       
+    }
+    #whoidimage{
+    margin-left: 18%;
+    height: 40vh;
+    width: 55vh;
+    }
+    #whoidimage1{
+      margin-top: 10%;
+      margin-left: 10.5%;
+      height: 40vh;
+      width: 71vh;
+      }
+      #whoid1{
+        box-shadow: -5px 0px 0px 0px #740000;
+        border-radius: 10px;
+        margin-top: 5%;
+        margin-left: 10%;
+       margin-bottom: 10%;
+      }
+      }
+      @media only screen and (max-width: 576px) {
+
+
+        #whoid{
+         box-shadow: -5px 0px 0px 0px #740000;
+         border-radius: 10px;
+         margin-left: 10%;
+         margin-bottom: 10%;
+      
+         
+         
+      }
+      #whoidimage{
+       
+      margin-left: 10%;
+      height: 30%;
+          width: 35%;
+      }
+      #whoidimage1{
+        margin-top: 10%;
+        margin-left: 10.5%;
+        height: 40%;
+        width: 80%;
+        }
+        #whoid1{
+          box-shadow: -5px 0px 0px 0px #740000;
+          border-radius: 10px;
+          margin-top: 5%;
+          margin-left: 10%;
+         margin-bottom: 10%;
+        }
+        }
+        @media only screen and (max-width: 575px) {
+          #whoidimage{
+            
+          margin-left: 20%;
+          height: 25%;
+          width: 30%;
+          }
+        }
