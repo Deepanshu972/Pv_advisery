@@ -23,7 +23,7 @@ const data = [
 
 data.forEach((element,i) => {
                
-    const main = document.querySelector("#whatcol");
+    const main = document.querySelector("#whay");
     
     console.log(main);
     
