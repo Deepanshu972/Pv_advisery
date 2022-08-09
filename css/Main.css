@@ -812,11 +812,7 @@ section .title::before {
   
 }
 
-@media only screen and (max-width: 1000px) {
-  #PV {
-    height: 110vh;
-  }
-}
+
 #your {
   /* height: 10px;
   width: 30px; */
@@ -960,6 +956,14 @@ margin-left: 10%;
   background-size:cover;
  
 }
+#financerow1{
+  background-image:  url('analytics-banner-300x159.jpg');
+  height: 30vh;
+  width: auto;
+  background-size:cover;
+  background-repeat: no-repeat;
+ 
+}
 
 #ror{
   margin: 90px 10px;
@@ -1071,4 +1075,30 @@ height: 100%;
 }
 .carousel .card2:hover img {
   border-color: #fff;
+}
+@media only screen and (max-width: 1000px) {
+  #PV {
+    height: 110vh;
+  }
+
+  .carousel .card2{
+    background: rgb(193, 190, 190);
+    width:100%;
+    border-radius: 16px;
+    padding: 1.5% 0.8% 3.5% 0.8%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 3%;
+    transition: all 0.3s ease;
+  }
+  .carousel .card1{
+    background: rgb(193, 190, 190);
+    width:100%;
+    border-radius: 16px;
+    padding: 1.5% 0.8% 3.5% 0.8%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 3%;
+    transition: all 0.3s ease;
+  }
 }
