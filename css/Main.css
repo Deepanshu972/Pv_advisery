@@ -955,7 +955,14 @@ margin-left: 10%;
   width: auto;
   background-size:cover;
  
-}#financerow2{
+}#financerow4{
+  background-image:  url('recent\ project.JPG');
+  height: 30vh;
+  width: auto;
+  background-size:cover;
+ 
+}
+#financerow2{
   background-image:  url('Financeimage.JPG');
   height: 30vh;
   width: auto;
@@ -1106,6 +1113,295 @@ height: 100%;
   }
   .carousel .card1{
     background: rgb(193, 190, 190);
+    width:100%;
+    border-radius: 16px;
+    padding: 1.5% 0.8% 3.5% 0.8%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 3%;
+    transition: all 0.3s ease;
+  }
+}
+.carousel .card3 {
+  background: rgb(249, 10, 10);
+  width:30%;
+  border-radius: 16px;
+  padding: 1.5% 0.8% 3.5% 0.8%;
+  text-align: center;
+  overflow: hidden;
+  margin-left: 3%;
+  transition: all 0.3s ease;
+}
+.cardscenter {
+  position: relative;
+  align-items: center;
+  margin-left: 9%;
+}
+.card3 {
+  margin-left: 3.5%;
+}
+
+.carousel .card3 .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.carousel .card3:hover .box {
+  transform: scale(1.05);
+}
+.carousel .card3 .text {
+  font-size: 150%;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 10%;
+  color: white;
+}
+.carousel .card3 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+.carousel .card3:hover img {
+  border-color: #fff;
+}
+
+.carousel .card4 {
+  background: rgb(9, 252, 199);
+  width:30%;
+  border-radius: 16px;
+  padding: 1.5% 0.8% 3.5% 0.8%;
+  text-align: center;
+  overflow: hidden;
+  margin-left: 3.5%;
+  transition: all 0.3s ease;
+}
+.cardscenter {
+  position: relative;
+  align-items: center;
+  margin-left: 9%;
+}
+.card2 {
+  margin-left: 3.5%;
+}
+
+.carousel .card4 .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.carousel .card4:hover .box {
+  transform: scale(1.05);
+}
+.carousel .card4 .text {
+  font-size: 150%;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 10%;
+  color: white;
+}
+.carousel .card4 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+.carousel .card4:hover img {
+  border-color: #fff;
+}
+@media only screen and (max-width: 1000px) {
+  #PV {
+    height: 110vh;
+  }
+
+  .carousel .card4{
+    background: rgb(9, 252, 199);
+    width:100%;
+    border-radius: 16px;
+    padding: 1.5% 0.8% 3.5% 0.8%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 3%;
+    transition: all 0.3s ease;
+  }
+  .carousel .card3{
+    background: rgb(249, 10, 10);
+    width:100%;
+    border-radius: 16px;
+    padding: 1.5% 0.8% 3.5% 0.8%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 3%;
+    transition: all 0.3s ease;
+  }
+}.carousel .card5 {
+  background: rgb(249, 169, 10);
+  width:30%;
+  border-radius: 16px;
+  padding: 1.5% 0.8% 3.5% 0.8%;
+  text-align: center;
+  overflow: hidden;
+  margin-left: 3%;
+  transition: all 0.3s ease;
+}
+.cardscenter {
+  position: relative;
+  align-items: center;
+  margin-left: 9%;
+}
+.card5 {
+  margin-left: 3.5%;
+}
+
+.carousel .card5 .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.carousel .card5:hover .box {
+  transform: scale(1.05);
+}
+.carousel .card5 .text {
+  font-size: 150%;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 10%;
+  color: white;
+}
+.carousel .card5 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+.carousel .card5:hover img {
+  border-color: #fff;
+}
+
+.carousel .card6 {
+  background: rgb(9, 248, 252);
+  width:30%;
+  border-radius: 16px;
+  padding: 1.5% 0.8% 3.5% 0.8%;
+  text-align: center;
+  overflow: hidden;
+  margin-left: 3.5%;
+  transition: all 0.3s ease;
+}
+.cardscenter {
+  position: relative;
+  align-items: center;
+  margin-left: 9%;
+}
+.card6 {
+  margin-left: 3.5%;
+}
+
+.carousel .card6 .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.carousel .card6:hover .box {
+  transform: scale(1.05);
+}
+.carousel .card6 .text {
+  font-size: 150%;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 10%;
+  color: white;
+}
+.carousel .card6 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+.carousel .card6:hover img {
+  border-color: #fff;
+}
+
+.carousel .card7 {
+  background: rgb(23, 175, 127);
+  width:30%;
+  border-radius: 16px;
+  padding: 1.5% 0.8% 3.5% 0.8%;
+  text-align: center;
+  overflow: hidden;
+  margin-left: 3.5%;
+  transition: all 0.3s ease;
+}
+.cardscenter {
+  position: relative;
+  align-items: center;
+  margin-left: 9%;
+}
+.card7 {
+  margin-left: 3.5%;
+}
+
+.carousel .card7 .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.carousel .card7:hover .box {
+  transform: scale(1.05);
+}
+.carousel .card7 .text {
+  font-size: 150%;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 10%;
+  color: white;
+}
+.carousel .card7 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+.carousel .card7:hover img {
+  border-color: #fff;
+}
+@media only screen and (max-width: 1000px) {
+  #PV {
+    height: 110vh;
+  }
+
+  .carousel .card5{
+    background: rgb(249, 169, 10);
+    width:100%;
+    border-radius: 16px;
+    padding: 1.5% 0.8% 3.5% 0.8%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 3%;
+    transition: all 0.3s ease;
+  }
+  .carousel .card6{
+    background: rgb(193, 190, 190);
+    width:100%;
+    border-radius: 16px;
+    padding: 1.5% 0.8% 3.5% 0.8%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 3%;
+    transition: all 0.3s ease;
+  }
+  .carousel .card7{
+    background: rgb(23, 175, 127);
     width:100%;
     border-radius: 16px;
     padding: 1.5% 0.8% 3.5% 0.8%;
