@@ -964,7 +964,14 @@ margin-left: 10%;
   background-repeat: no-repeat;
  
 }
-
+#financerow3{
+  background-image:  url('virtual-cfo-banner.jpg');
+  height: 30vh;
+  width: auto;
+  background-size:cover;
+ 
+ 
+}
 #ror{
   margin: 90px 10px;
 }
