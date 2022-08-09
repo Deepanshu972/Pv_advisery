@@ -955,6 +955,12 @@ margin-left: 10%;
   width: auto;
   background-size:cover;
  
+}#financerow2{
+  background-image:  url('Financeimage.JPG');
+  height: 30vh;
+  width: auto;
+  background-size:cover;
+ 
 }
 #financerow1{
   background-image:  url('analytics-banner-300x159.jpg');
@@ -964,7 +970,7 @@ margin-left: 10%;
   background-repeat: no-repeat;
  
 }
-#financerow3{
+#financerow3x{
   background-image:  url('virtual-cfo-banner.jpg');
   height: 30vh;
   width: auto;
